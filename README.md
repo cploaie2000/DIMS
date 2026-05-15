@@ -68,14 +68,28 @@ Closing the wizard window allows the launching process to go to the next step wh
 
 <img width="772" height="629" alt="netonly" src="https://github.com/user-attachments/assets/61f52862-9c96-4606-bf30-3e914d1eaa83" />
 
+
 Regardless of the option chosen, OK or Cancel the application will ask user to choose which data collections he wants to be enabled and started once the application launch process is finishing
 Frienldy advice - It is recommended to not check / enable any options here for the time being since is better to use the application in the ad hoc mode meaning nothing is running in the background which collects data and inserts it to some of the tables for some of the features you might have installed.
 
 <img width="692" height="503" alt="enabledisabledr" src="https://github.com/user-attachments/assets/0a94e673-8b5a-4dcb-aeed-7ca5c9956672" />
 
+
 Pressing ok or cancel shows a window displaying the outcom of your actions in the image above. In case Cancel or OK without any checks the message will be as below.
 
 <img width="705" height="413" alt="okwindow" src="https://github.com/user-attachments/assets/6448cd74-fc82-4b54-9a6a-428f654ecb86" />
 
+
 Once you press OK, the application will start connecting to different tables in order to select informaton that is used for initial configuration of the interface. These error messages are informational only and they will disappear once you start installing the metadata for all the features application exposes.
+
+<img width="1745" height="792" alt="multipleerrmsg" src="https://github.com/user-attachments/assets/48034870-d685-49d6-a542-6316630bdec3" />
+
+
+Once all the initial data retrieval statements have been executed either successfully ( no error messages ) or not ( error message received  )  you are ready to use the application features
+
+<img width="1439" height="507" alt="mainwindow" src="https://github.com/user-attachments/assets/dea028fe-b5ab-40de-a98f-ef4f321595b0" />
+
+Although the application might not be self explanatory for the end users initially I will explain here how new MSSQL DBAs can use it. The application has a vertical left menu and an horizontal top menu as you can see in the image above and once you select a script you can press the green button which will execute the script againt the instance you selected.
+
+It is recommended as mentioned in the prerequistes section to watch the full video, DIMS   October 2024   Presentation Final V3, presenting the application to have a look and feel about the application capabilities.
 
