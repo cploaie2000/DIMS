@@ -4,8 +4,8 @@ DIMS - Database Independent Management Software
 
 Reason
 
-	1. Possible substitute for specific activities DBAs are doing  while using SQL Server Management Studio, Excel, Power BI, Powershell ISE or other third party applications they might use to perform those activities
-	2. Suitable for working with metadata meaning result sets of under  5000 rows or 2 000 rows in case we have more than 20 - 30 columns
+Possible substitute for specific activities DBAs are doing  while using SQL Server Management Studio, Excel, Power BI, Powershell ISE or other third party applications they might use to perform those activities
+Suitable for working with metadata meaning result sets of under  5000 rows or 2 000 rows in case we have more than 20 - 30 columns
 
 Heads Up
 
