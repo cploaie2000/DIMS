@@ -58,7 +58,24 @@ As you can see the only button for changing whaterver is displayed currently in 
 
 <img width="792" height="650" alt="wizard" src="https://github.com/user-attachments/assets/25992673-f44f-4fb7-8202-89aafa3c5f86" />
 
+Checking / unchecking any options as showin in the picture below will display the objects that needs to be created in the database for those features.
+Pressing the green button will start executing the scripts for creating those objects using sqlcmd which is important to have SQL Server Instance installed on the local computer.
+
+<img width="1883" height="647" alt="wizardandcreateobj" src="https://github.com/user-attachments/assets/23f7feb0-21a0-44c5-87b0-b6a15d4bb64d" />
 
 
+Closing the wizard window allows the launching process to go to the next step which is asking the user if wants to start the application using a specific domain account, different than the user he is currently logged. Providing account information here allows the application to connect to remote sql servers part from that domain using that credential. 
 
+<img width="772" height="629" alt="netonly" src="https://github.com/user-attachments/assets/61f52862-9c96-4606-bf30-3e914d1eaa83" />
+
+Regardless of the option chosen, OK or Cancel the application will ask user to choose which data collections he wants to be enabled and started once the application launch process is finishing
+Frienldy advice - It is recommended to not check / enable any options here for the time being since is better to use the application in the ad hoc mode meaning nothing is running in the background which collects data and inserts it to some of the tables for some of the features you might have installed.
+
+<img width="692" height="503" alt="enabledisabledr" src="https://github.com/user-attachments/assets/0a94e673-8b5a-4dcb-aeed-7ca5c9956672" />
+
+Pressing ok or cancel shows a window displaying the outcom of your actions in the image above. In case Cancel or OK without any checks the message will be as below.
+
+<img width="705" height="413" alt="okwindow" src="https://github.com/user-attachments/assets/6448cd74-fc82-4b54-9a6a-428f654ecb86" />
+
+Once you press OK, the application will start connecting to different tables in order to select informaton that is used for initial configuration of the interface. These error messages are informational only and they will disappear once you start installing the metadata for all the features application exposes.
 
