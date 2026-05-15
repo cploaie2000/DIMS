@@ -56,6 +56,7 @@ This wizard or selections made here have no impact on the current state of the a
 As you can see the only button for changing whaterver is displayed currently in the interface is the one labeled - display objects to be created - . This is to let user know that by cheking unchecking features on the left sidepressing that button will generate the create statement only for the objects for the checked features which were not discovered yet.
 
 
+<img width="792" height="650" alt="wizard" src="https://github.com/user-attachments/assets/25992673-f44f-4fb7-8202-89aafa3c5f86" />
 
 
 
