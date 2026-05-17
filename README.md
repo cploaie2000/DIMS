@@ -10,8 +10,8 @@ Reason
 Heads Up
 
 1. The application main value is its source code which for the time being is not shared because the main goal is to sell the source code together with the application in order for people  to continue its development as they see fit.
-2. Those being said you need to be aware that the application has between 150 to more than 300 different achievable end results end some of those were developped and tested only to some extent hence prepare yourself for a bumby but hope fun ride while using the application.
-3. Whatever the application might loose because of its appearance is trying to win back by the amout of features or operations provided
+2. Those being said you need to be aware that the application has between 150 to more than 300 different achievable end results and some of those were developped and tested only to some extent hence prepare yourself for a bumby but hope fun ride while using the application.
+3. Whatever the application might lose because of its appearance is trying to win back by the amout of features or operations provided
 4. Application went through a series of modifications throughout time hence consistency of the application was hard to keep which is why you might see some things which might not look linear from the actions point of view. For example some selections might look strange although a second time the selection was made it looks like it should
 5. Some of the features and scripts might require information present only in the database tables I used to develop the application hence ignore the message and continue using the features which are working.
 6. Some of the features are incomplete, an example is Execution Plan or better say the graphical display of execution plan
@@ -19,7 +19,7 @@ Heads Up
 
 Whishes
 
-1. I would like for whomever downloads and uses the application to understand that I am not looking into bug hunting contest or something along these lines. I am fully aware of some all of the application shortcomings. 
+1. I would like for whomever downloads and uses the application to understand that I am not looking into bug hunting contest or something along these lines. I am fully aware of some or all of the application shortcomings. 
 2. I would like for whomever uses the application to understand that some of the things were hard coded and some of them were proof of concepts
 
 Recommendations
@@ -27,8 +27,8 @@ Recommendations
 Preferably use the application on your local computer and against SQL Servers which don't require encryption. 
 Due to:
 	- obfuscating the code your antivirus might complain about the executable ( it happened when using the application on one of my working laptops ) and introduced an message that for time being was not addressed because the message appears only if we launch the obfuscated code and not the normal code.
-	- by default the application connection string when connecting to SQL Server is not using Encrypt and TrustServerCertificate  options test it against sql server which don't require encryption. I am thinking how to implement the addition of those parameters in case the target SQL Server requires encryption. 
-	- play and try built in SQL Server Stored procedures when testing the tool
+	- by default the application connection string when connecting to SQL Server is not using Encrypt and TrustServerCertificate  options hence test it against sql server which don't require encryption. I am thinking how to implement the addition of those parameters in case the target SQL Server requires encryption. 
+	- play and try built in SQL Server Stored procedures when testing the tool and after that you can check some of the scripts provided and try to use them.
 
 Presentation videos / linkedin posts throughout the years
 	- https://www.youtube.com/@catalinploaiecataploaie4862
