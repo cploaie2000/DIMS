@@ -94,3 +94,4 @@ Although the application might not be self explanatory for the end users initial
 
 It is recommended as mentioned in the prerequistes section to watch the full video, DIMS   October 2024   Presentation Final V3, presenting the application to have a look and feel about the application capabilities.
 
+For using a feature I believe is best to search the Youtube videos after that feature name. Most probably during the developing phase of that feature I made videos about it. All my youtube videos can be found here, https://www.youtube.com/@catalinploaiecataploaie4862/videos
