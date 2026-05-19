@@ -26,11 +26,10 @@ Recommendations
 
 Preferably use the application on your local computer and against SQL Servers which don't require encryption. 
 Due to:
-	- obfuscating the code your antivirus might complain about the executable ( it happened when using the application on one of my working laptops ) and introduced an message that for time being was not addressed because the message appears only if we launch the obfuscated code and not the normal code.
-	
-	- by default the application connection string when connecting to SQL Server is not using Encrypt and TrustServerCertificate  options hence test it against sql server which don't require encryption. I am thinking how to implement the addition of those parameters in case the target SQL Server requires encryption. 
-	
-	- play and try built in SQL Server Stored procedures when testing the tool and after that you can check some of the scripts provided and try to use them.
+
+	1. obfuscating the code your antivirus might complain about the executable ( it happened when using the application on one of my working laptops ) and introduced an message that for time being was not addressed because the message appears only if we launch the obfuscated code and not the normal code.
+	2. by default the application connection string when connecting to SQL Server is not using Encrypt and TrustServerCertificate  options hence test it against sql server which don't require encryption. I am thinking how to implement the addition of those parameters in case the target SQL Server requires encryption. 
+	3. play and try built in SQL Server Stored procedures when testing the tool and after that you can check some of the scripts provided and try to use them.
 
 Presentation videos / linkedin posts throughout the years
 	- https://www.youtube.com/@catalinploaiecataploaie4862
