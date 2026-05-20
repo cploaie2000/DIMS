@@ -1,6 +1,6 @@
 "# DIMS" 
 # DIMS
-DIMS - Database Independent Management Software
+DIMS - Database Indie Management Software
 
 Reason
 
